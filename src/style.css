@@ -1,54 +1,54 @@
-/* NAVBAR */
-/* Style for the logo image inside the navbar brand */
-.navbar-brand img {
-    background-color: rgb(202, 202, 202); /* Light gray background color for the logo */
-    border-radius: 50%; /* Makes the image circular */
+/*NAVBAR*/
+.navbar-brand img{
+    background-color:rgb(202, 202, 202);
+    border-radius: 50%;
 }
 
-/* Hover effect for the navbar brand */
-.navbar-brand:hover {
-    color: rgb(202, 202, 202); /* Changes text color to light gray when hovered */
+.navbar-brand:hover{
+    color:rgb(202, 202, 202);
 }
 
-/* Styles for the custom navbar */
-.mynavbar {
-    background-color: black; /* Sets the navbar background to black */
+.mynavbar{
+    background-color:black;
+}
+
+.navbar-brand{
+    color: rgb(202, 202, 202);
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(202, 202, 202, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .mytab.nav-link.active{
     background-color:black;
 }
 
-/* Default style for the navbar brand text */
-.navbar-brand {
-    color: rgb(202, 202, 202); /* Sets the text color to light gray */
+.mytab.nav-link:hover{
+    color:rgb(202, 202, 202);
 }
 
-/* Custom styles for the navbar toggle icon */
-.custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(202, 202, 202, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    /* Custom icon with light gray stroke for the toggle button */
+.nav-link{ 
+    color: rgb(202, 202, 202);
+    margin-left: 10px;
 }
 
-/* Hover effect for tabs in the navbar */
-.mytab.nav-link:hover {
-    color: rgb(202, 202, 202); /* Changes the text color to light gray on hover */
+.my-nav-link:hover{
+    color:grey;
 }
 
-/* Default style for all links in the navbar */
-.nav-link {
-    color: rgb(202, 202, 202); /* Sets the text color to light gray */
-    margin-left: 10px; /* Adds spacing between links */
+
+
+
+
+/*SLIDESHOW*/
+.carousel-item img{
+    object-fit: cover;
+    overflow:hidden;
 }
 
-.nav-link.my-nav-link.active {
-    color: rgb(202, 202, 202); /* Sets the text color to light gray */
-    margin-left: 10px; /* Adds spacing between links */
-}
-
-/* Hover effect for specific navbar links */
-.my-nav-link:hover {
-    color: grey; /* Changes the text color to gray when hovered */
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);;
 }
 
 
@@ -58,59 +58,35 @@
 
 
 
-/* SLIDESHOW */
-/* Styling for the carousel images */
-.carousel-item img {
-    object-fit: cover; /* Ensures that the image covers the entire container, maintaining aspect ratio, but potentially cropping parts of the image */
-    overflow: hidden; /* Prevents content from overflowing outside the image container */
+/*MENU*/
+.menu-title{
+    color: black;
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: xxx-large;
 }
 
-/* Styling for the carousel captions */
-.carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent black background to the caption for better readability over images */
+.card-header .nav-link{
+    color:black;
 }
 
-
-
-
-
-
-
-
-/* MENU */
-/* Styling for the menu title */
-.menu-title {
-    color: black; /* Sets the text color of the menu title to black */
-    padding-top: 30px; /* Adds space above the menu title */
-    font-weight: 700; /* Makes the menu title bold */
-    font-size: xxx-large; /* Sets the font size to extra extra large */
+.card img{
+    object-fit: cover;
+    overflow:hidden;
 }
 
-/* Styling for navigation links in the card header */
-.card-header .nav-link {
-    color: black; /* Sets the text color of navigation links in the card header to black */
+.btn-checkout{
+    background-color:#dc002a;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-/* Styling for images inside the card component */
-.card img {
-    object-fit: cover; /* Ensures that the image covers the entire container, maintaining aspect ratio, but cropping parts if necessary */
-    overflow: hidden; /* Prevents any part of the image from overflowing the container */
-}
-
-/* Styling for the checkout button */
-.btn-checkout {
-    background-color: #dc002a; /* Sets the background color of the checkout button to bright red */
-    color: white; /* Sets the text color to white */
-    padding-left: 50px; /* Adds padding to the left side of the button */
-    padding-right: 50px; /* Adds padding to the right side of the button */
-    padding-top: 10px; /* Adds padding to the top side of the button */
-    padding-bottom: 10px; /* Adds padding to the bottom side of the button */
-}
-
-/* Hover effect for the checkout button */
-.btn-checkout:hover {
-    background-color: #3f762c; /* Changes the background color to green when hovering */
-    color: white; /* Keeps the text color white on hover */
+.btn-checkout:hover{
+    background-color: #3f762c;
+    color: white;
 }
 
 
@@ -125,332 +101,300 @@
 
 
 
-/* CHECKOUT */
-
-/* Styling for the checkout title */
+/*CHECKOUT*/
 .checkout-title {
-    color: black; /* Sets the text color to black */
-    padding-top: 30px; /* Adds space above the title */
-    font-weight: 700; /* Makes the title bold */
-    font-size: xxx-large; /* Sets a very large font size */
-    padding-bottom: 40px; /* Adds space below the title */
+    color: black;
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: xxx-large;
+    padding-bottom: 40px;
 }
 
-/* Container for the checkout page, ensuring a centered and clean layout */
+
 .checkout-container .container {
-    max-width: 900px; /* Limits the width of the container to 900px */
-    margin: 20px auto; /* Centers the container and adds space around it */
-    overflow: hidden; /* Prevents overflow of content */
-    background-color: #f8f9fa; /* Sets a light background color */
+    max-width: 900px;
+    margin: 20px auto;
+    overflow: hidden;
+    background-color: #f8f9fa;
 }
 
-/* Box-1 for layout of checkout options (like payment method) */
 .box-1 {
-    max-width: 450px; /* Limits the width to 450px */
-    padding: 10px 40px; /* Adds padding on the sides and top/bottom */
-    user-select: none; /* Prevents text selection inside the box */
+    max-width: 450px;
+    padding: 10px 40px;
+    user-select: none;
 }
 
-/* Small font sizes and white text inside Box-1 */
 .box-1 div .fs-12 {
-    font-size: 8px; /* Very small text */
-    color: white; /* White text color */
+    font-size: 8px;
+    color: white;
 }
 
-/* Font size for slightly larger text inside Box-1 */
 .box-1 div .fs-14 {
-    font-size: 15px; /* Sets the font size to 15px */
-    color: white; /* White text color */
+    font-size: 15px;
+    color: white;
 }
 
-/* Image styling inside Box-1 */
 .box-1 img.pic {
-    width: 20px; /* Set a small image size */
-    height: 20px; /* Set a small image size */
-    object-fit: cover; /* Ensures the image fills the box without distortion */
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
 }
 
-/* Mobile image styling inside Box-1 */
 .box-1 img.mobile-pic {
-    width: 100%; /* Makes the image take the full width of the container */
-    height: 200px; /* Fixed height for the image */
-    object-fit: cover; /* Ensures the image is not distorted */
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
-/* Name styling for items inside Box-1 */
 .box-1 .name {
-    font-size: 11px; /* Smaller font size */
-    font-weight: 600; /* Sets the font to semi-bold */
+    font-size: 11px;
+    font-weight: 600;
 }
 
-/* Styling for the description text */
 .dis {
-    font-size: 12px; /* Slightly larger font size */
-    font-weight: 500; /* Medium font weight */
+    font-size: 12px;
+    font-weight: 500;
 }
 
-/* Label box styling for interactive elements (like radio buttons) */
 label.box {
-    width: 100%; /* Ensures the label takes up the full width */
-    font-size: 12px; /* Smaller text size */
-    background: #ddd; /* Light gray background */
-    margin-top: 12px; /* Adds space above the label */
-    padding: 10px 12px; /* Adds padding inside the label */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Changes cursor to pointer to indicate interaction */
-    border: 1px solid transparent; /* Initially no border */
+    width: 100%;
+    font-size: 12px;
+    background: #ddd;
+    margin-top: 12px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
 }
 
-/* Styling for checked labels, with green borders to indicate selection */
 #one:checked~label.first,
 #two:checked~label.second,
 #three:checked~label.third {
-    border-color: #3f762c; /* Green border when checked */
+    border-color:#3f762c;
 }
 
-/* Styling for the circle icon inside checked labels */
 #one:checked~label.first .circle,
 #two:checked~label.second .circle,
 #three:checked~label.third .circle {
-    border-color: #3f762c; /* Green border */
-    background-color: #fff; /* White background for the circle */
+    border-color:#3f762c;
+    background-color: #fff;
 }
 
-/* Circle icon inside labels */
+label.box .course {
+    width: 100%;
+}
+
 label.box .circle {
-    height: 12px; /* Circle height */
-    width: 12px; /* Circle width */
-    background: #ccc; /* Gray background */
-    border-radius: 50%; /* Makes it circular */
-    margin-right: 15px; /* Space between circle and text */
-    border: 4px solid transparent; /* Invisible border to allow hover effects */
-    display: inline-block; /* Displays the circle inline with text */
+    height: 12px;
+    width: 12px;
+    background: #ccc;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 4px solid transparent;
+    display: inline-block;
 }
 
-/* Hides the default radio button */
 input[type="radio"] {
-    display: none; /* Hides the radio button */
+    display: none;
 }
 
-/* Box-2 for layout of personal information input fields */
 .box-2 {
-    max-width: 450px; /* Limits the width to 450px */
-    padding: 10px 40px; /* Adds padding around the box */
+    max-width: 450px;
+    padding: 10px 40px;
 }
 
-/* Styling for form input fields inside Box-2 */
+
 .box-2 .box-inner-2 input.form-control {
-    font-size: 12px; /* Smaller font size for input text */
-    font-weight: 600; /* Semi-bold font weight */
+    font-size: 12px;
+    font-weight: 600;
 }
 
-/* Input fields with icons inside Box-2 */
 .box-2 .box-inner-2 .inputWithIcon {
-    position: relative; /* Allows absolute positioning of icons */
+    position: relative;
 }
 
-/* Icon inside input fields inside Box-2 */
 .box-2 .box-inner-2 .inputWithIcon span {
-    position: absolute; /* Positions the icon inside the input */
-    left: 15px; /* Positions icon 15px from the left */
-    top: 8px; /* Positions icon 8px from the top */
+    position: absolute;
+    left: 15px;
+    top: 8px;
 }
 
-/* Checkbox input fields with icons */
 .box-2 .box-inner-2 .inputWithcheck {
-    position: relative; /* Allows absolute positioning of check mark */
+    position: relative;
 }
 
-/* Green checkmark icon inside the input */
 .box-2 .box-inner-2 .inputWithcheck span {
-    position: absolute; /* Positions the checkmark icon inside the input */
-    width: 20px; /* Set size of the checkmark */
-    height: 20px; /* Set size of the checkmark */
-    border-radius: 50%; /* Makes the icon circular */
-    background-color: green; /* Sets the background to green */
-    font-size: 12px; /* Sets font size of the checkmark */
-    color: white; /* White color for the checkmark */
-    display: flex; /* Makes it a flex container for centering */
-    justify-content: center; /* Centers the checkmark */
-    align-items: center; /* Centers the checkmark */
-    right: 15px; /* Positions it 15px from the right */
-    top: 6px; /* Positions it 6px from the top */
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 15px;
+    top: 6px;
 }
 
-/* Styling for focused input fields to highlight them */
 .form-control:focus,
 .form-select:focus {
-    box-shadow: none; /* Removes the box shadow */
-    outline: none; /* Removes the outline */
-    border: 1px solid #3f762c; /* Adds a green border when focused */
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #3f762c;
 }
 
-/* Focused state for bordered elements */
 .border:focus-within {
-    border: 1px solid #3f762c !important; /* Adds a green border when a child element is focused */
+    border: 1px solid #3f762c !important;
 }
 
-/* Styling for ATM card form fields */
 .box-2 .card-atm .form-control {
-    border: none; /* Removes the border */
-    box-shadow: none; /* Removes any box shadow */
+    border: none;
+    box-shadow: none;
 }
 
-/* Styling for form-select elements */
 .form-select {
-    border-radius: 0; /* Removes rounded corners */
-    border-top-left-radius: 10px; /* Adds rounded corners to the top-left */
-    border-top-right-radius: 10px; /* Adds rounded corners to the top-right */
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
 }
 
-/* Styling for form-control elements in address section */
 .address .form-control.zip {
-    border-radius: 0; /* Removes rounded corners */
-    border-bottom-left-radius: 10px; /* Adds rounded corners to the bottom-left */
+    border-radius: 0;
+    border-bottom-left-radius: 10px;
+
 }
 
-/* Styling for form-control elements in address section */
 .address .form-control.state {
-    border-radius: 0; /* Removes rounded corners */
-    border-bottom-right-radius: 10px; /* Adds rounded corners to the bottom-right */
+    border-radius: 0;
+    border-bottom-right-radius: 10px;
+
 }
 
-/* Primary button styling inside Box-2 */
 .box-2 .box-inner-2 .btn.btn-outline-primary {
-    width: 120px; /* Sets button width */
-    padding: 10px; /* Adds padding */
-    font-size: 11px; /* Smaller font size */
-    display: flex; /* Flexbox layout for centering */
-    align-items: center; /* Centers button contents */
-    border: none; /* Removes button border */
-    border-radius: 0; /* Removes button corner rounding */
-    background-color: whitesmoke; /* Light background color */
-    color: black; /* Black text color */
-    font-weight: 600; /* Semi-bold text */
+    width: 120px;
+    padding: 10px;
+    font-size: 11px;
+    padding: 0% !important;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 0;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 600;
 }
 
-/* Primary button inside Box-2 */
 .box-2 .box-inner-2 .btn.btn-primary {
-    background-color: #dc002a; /* Red background color */
-    color: whitesmoke; /* Light text color */
-    font-size: 14px; /* Sets font size */
-    display: flex; /* Flexbox layout for centering */
-    align-items: center; /* Centers text inside the button */
-    font-weight: 600; /* Semi-bold text weight */
-    justify-content: center; /* Centers text */
-    border: none; /* Removes button border */
-    padding: 10px; /* Adds padding around the button */
+    background-color:#dc002a;
+    color: whitesmoke;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    justify-content: center;
+    border: none;
+    padding: 10px;
 }
 
-/* Hover effect for primary button */
 .box-2 .box-inner-2 .btn.btn-primary:hover {
-    background-color: #3f762c; /* Changes background to green when hovered */
+    background-color: #3f762c;
 }
 
-/* Icon styling inside primary button */
 .box-2 .box-inner-2 .btn.btn-primary .fas {
-    font-size: 13px !important; /* Sets the icon size */
-    color: whitesmoke; /* White icon color */
+    font-size: 13px !important;
+    color: whitesmoke;
 }
 
-/* Styling for carousel indicators */
 .carousel-indicators [data-bs-target] {
-    width: 10px; /* Sets size of carousel indicator */
-    height: 10px; /* Sets size of carousel indicator */
-    border-radius: 50%; /* Makes indicators circular */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
 }
 
-/* Styling for carousel inner container */
 .carousel-inner {
-    width: 100%; /* Takes up full width */
-    height: 250px; /* Fixed height for carousel */
+    width: 100%;
+    height: 250px;
 }
 
-/* Styling for carousel images */
 .carousel-item img {
-    object-fit: cover; /* Ensures the image covers the entire container */
-    height: 100%; /* Makes the image take full height */
+    object-fit: cover;
+    height: 100%;
 }
 
-/* Styling for previous carousel control */
 .carousel-control-prev {
-    transform: translateX(-50%); /* Centers the control */
-    opacity: 1; /* Ensures visibility */
+    transform: translateX(-50%);
+    opacity: 1;
 }
 
-/* Hover effect for previous carousel control */
 .carousel-control-prev:hover .fas.fa-arrow-left {
-    transform: translateX(-5px); /* Moves the arrow left when hovered */
+    transform: translateX(-5px);
 }
 
-/* Styling for next carousel control */
 .carousel-control-next {
-    transform: translateX(50%); /* Positions the control to the right */
-    opacity: 1; /* Ensures visibility */
+    transform: translateX(50%);
+    opacity: 1;
 }
 
-/* Hover effect for next carousel control */
 .carousel-control-next:hover .fas.fa-arrow-right {
-    transform: translateX(5px); /* Moves the arrow right when hovered */
+    transform: translateX(5px);
 }
 
-/* Styling for carousel arrow icons */
 .fas.fa-arrow-left,
 .fas.fa-arrow-right {
-    font-size: 0.8rem; /* Small icon size */
-    transition: all .2s ease; /* Smooth transition effect */
+    font-size: 0.8rem;
+    transition: all .2s ease;
 }
 
-/* General icon styling */
 .icon {
-    width: 30px; /* Icon size */
-    height: 30px; /* Icon size */
-    background-color: #f8f9fa; /* Light background color */
-    color: black; /* Black icon color */
-    display: flex; /* Flexbox layout */
-    align-items: center; /* Centers icon */
-    justify-content: center; /* Centers icon */
-    border-radius: 50%; /* Makes the icon circular */
-    transform-origin: center; /* Ensures proper rotation origin */
-    opacity: 1; /* Ensures the icon is visible */
+    width: 30px;
+    height: 30px;
+    background-color: #f8f9fa;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transform-origin: center;
+    opacity: 1;
 }
 
-/* Styling for font awesome icons */
 .fas,
 .fab {
-    color: #6d6c6d; /* Gray icon color */
+    color: #6d6c6d;
 }
 
-/* Placeholder text styling */
 ::placeholder {
-    font-size: 12px; /* Smaller font size for placeholders */
+    font-size: 12px;
 }
 
-/* Media query for smaller screens (max-width 980px) */
-@media (max-width: 980px) {
+@media (max-width:980px) {
     .container {
-        max-width: 700px; /* Reduces container width */
-        margin: 10px auto; /* Adds margin for centering */
+        max-width: 700px;
+        margin: 10px auto;
     }
 
     .box-1,
     .box-2 {
-        max-width: 600px; /* Reduces box width */
-        padding: 20px 90px; /* Increases padding */
-        margin: 20px auto; /* Adds margin for centering */
+        max-width: 600px;
+        padding: 20px 90px;
+        margin: 20px auto;
     }
+
 }
 
-/* Media query for extra small screens (max-width 426px) */
-@media (max-width: 426px) {
+@media (max-width:426px) {
+
     .box-1,
     .box-2 {
-        max-width: 400px; /* Further reduces box width */
-        padding: 20px 10px; /* Adjusts padding */
+        max-width: 400px;
+        padding: 20px 10px;
     }
 
     ::placeholder {
-        font-size: 9px; /* Smaller placeholder font size */
+        font-size: 9px;
     }
 }
 
@@ -462,70 +406,42 @@ input[type="radio"] {
 
 
 
-/* RESERVATION */
 
-/* Header styling for reservation section */
-.reservation_6 .contactus-head {
-    margin-top: 60px; /* Adds space above the header */
-    margin-right: 0px; /* Removes right margin */
-    margin-bottom: 10px; /* Adds space below the header */
-    margin-left: 0px; /* Removes left margin */
-    text-align: center; /* Centers the header text */
-    color: #6d6c6d; /* Gray text color */
-    font-size: 40px; /* Large font size */
-    font-weight: 800; /* Bold font weight */
+
+
+
+/*RESERVATION*/
+.reservation_6 .contactus-head{
+    margin-top: 60px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    line-height: 25px;
+    text-align: center;
+    color:#6d6c6d;
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+.reservation_6 .contactus-subhead{
+    color:#3f762c;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
-/* Subheading styling for reservation section */
-.reservation_6 .contactus-subhead {
-    color: #3f762c; /* Green text color */
-    text-align: center; /* Centers the subheading text */
-    margin-top: 20px; /* Adds space above the subheading */
-    margin-bottom: 40px; /* Adds space below the subheading */
+.reservation-btn{
+    background-color:#dc002a;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-/* Reservation button styling */
-.reservation-btn {
-    background-color: #dc002a; /* Red background */
-    color: white; /* White text */
-    padding-left: 50px; /* Adds padding */
-    padding-right: 50px; /* Adds padding */
-    padding-top: 10px; /* Adds padding */
-    padding-bottom: 10px; /* Adds padding */
-}
-
-/* Hover effect for reservation button */
-.reservation-btn:hover {
-    background-color: #3f762c; /* Changes background color to green */
-    color: white; /* Keeps white text */
-}
-
-
-
-
-
-
-
-
-
-
-
-/* SIGN UP */
-
-/* Create account button styling */
-.create_account_button {
-    background-color: #dc002a; /* Red background */
-    color: white; /* White text */
-    padding-left: 50px; /* Padding on left */
-    padding-right: 50px; /* Padding on right */
-    padding-top: 10px; /* Padding on top */
-    padding-bottom: 10px; /* Padding on bottom */
-}
-
-/* Hover effect for create account button */
-.create_account_button:hover {
-    background-color: #3f762c; /* Changes background to green */
-    color: white; /* Keeps white text */
+.reservation-btn:hover{
+    background-color: #3f762c;
+    color: white;
 }
 
 
@@ -539,21 +455,44 @@ input[type="radio"] {
 
 
 
-/* SIGN IN */
 
-/* Sign in button styling */
-.sign_in_button {
-    background-color: #dc002a; /* Red background */
-    color: white; /* White text */
-    padding-left: 50px; /* Padding on left */
-    padding-right: 50px; /* Padding on right */
-    padding-top: 10px; /* Padding on top */
-    padding-bottom: 10px; /* Padding on bottom */
-    border: none; /* Removes border */
+
+
+/* SIGN UP*/
+.create_account_button{
+    background-color:#dc002a;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-/* Hover effect for sign-in button */
-.sign_in_button:hover {
-    background-color: #3f762c; /* Changes background to green */
-    color: white; /* Keeps white text */
+.create_account_button:hover{
+    background-color: #3f762c;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/*SIGN IN*/
+.sign_in_button{
+    background-color:#dc002a;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+}
+
+.sign_in_button:hover{
+    background-color: #3f762c;
+    color: white;
 }
